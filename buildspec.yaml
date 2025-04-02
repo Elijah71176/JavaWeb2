@@ -6,8 +6,8 @@ java: corretto21
 build:
   commands:
 
-  - echo Build completed on date
-  - mvn package
+    - echo Build completed on date
+    - mvn package
 
 post_build:
 commands:
